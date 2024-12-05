@@ -40,9 +40,7 @@ int main() {
     // 3. Set up 2 arrays and initialize to all zeros
     //      and count letters in the strings using class --member function-- countLetters()
 
-    int ca1[26] = {0}, ca2[26]={0};
-     // Count letters in the strings
-    int ca1[ARRAYSIZE] = {0}, ca2[ARRAYSIZE] = {0};
+    int ca1[ARRAYSIZE] = {0}, ca2[ARRAYSIZE]={0};
     sentence1.countLetters(ca1);
     sentence2.countLetters(ca2);
 
