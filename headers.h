@@ -17,7 +17,7 @@ public:
     //Mutators
     void cleanUp();
     void countLetters(int letterCount[]);
-    void GetAString();
+    void getAString();
 
 };
 
