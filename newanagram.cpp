@@ -25,26 +25,39 @@ int main() {
 
     // 2. Get user inputs using class --member function-- getAString()
     //      and clean up the strings using class --member function-- cleanUp()
+    // Get user inputs and clean up the strings
+    cout << "Enter string value: ";
+    sentence1.getAString();
+    sentence1.cleanUp();
 
-    // *** MISSING CODE HERE! *** //
+    cout << "Enter string value: ";
+    sentence2.getAString();
+    sentence2.cleanUp();
+
+
 
 
     // 3. Set up 2 arrays and initialize to all zeros
     //      and count letters in the strings using class --member function-- countLetters()
 
     int ca1[26] = {0}, ca2[26]={0};
-    // *** MISSING CODE HERE! *** //
+     // Count letters in the strings
+    int ca1[ARRAYSIZE] = {0}, ca2[ARRAYSIZE] = {0};
+    sentence1.countLetters(ca1);
+    sentence2.countLetters(ca2);
 
+   
 
     // 4. Use external function compareCounts to decide
     //      if the 2 strings are anagrams of each other or not
 
-    // *** MISSING CODE HERE! *** //
+     // Compare letter counts to determine if anagrams
+    bool badCount = compareCounts(ca1, ca2);
 
     if (badCount) {
-        // *** MISSING CODE HERE! *** //
+        cout << "The strings are anagrams." << endl;
     } else {
-        // *** MISSING CODE HERE! *** //
+        cout << "The strings are not anagrams." << endl;
     }
 
     return 0;
