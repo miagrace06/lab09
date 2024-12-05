@@ -3,10 +3,10 @@
 using namespace std;
 
 
-Student::Student(int p, string lName, string fName) {
-	perm = p;
-	lastName = lName;
-	firstandMiddleNames = fName;
+Student::Student(int perm, string lastName, string firstAndMiddleNames) {
+	perm = perm;
+	lastName = lastName;
+	firstAndMiddleNames = firstAndMiddleNames;
  
 }
 
