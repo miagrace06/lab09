@@ -6,7 +6,7 @@ using namespace std;
 Student::Student(int p, string lName, string fName) {
 	perm = p;
 	lastName = lName;
-	firstName = fName;
+	firstandMiddleNames = fName;
  
 }
 
