@@ -9,7 +9,6 @@
 #include <string>
 using namespace std;
 
-#include "headers.h"
 #include "functions.cpp"
 
 int main() {
